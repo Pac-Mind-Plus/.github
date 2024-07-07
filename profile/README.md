@@ -1,20 +1,31 @@
 # Mind Plus
-## Hi there 👋
 ## Iniciar Frontend
 ### 0. Pré requisitos
 Pré requisitos:
 NodeJs - >= V.20
 ### 1. Acessar o repositório do Frontend
+Como primeiro passo acesse o repositório do projeto:
+
+[Mind Plus Frontend](https://github.com/Pac-Mind-Plus/Frontend)
 ### 2. Fazer o git clone do repositório da branch master
-### 3. Rodar a aplicação NextJs
-No terminal rodar o comando:
+Criar uma pasta onde o projeto será clonado, acessar a pasta pelo terminal e clonar digitando o seguinte comando:
+
+```bash
+git clone {LINK_DO_REPOSITORIO} .
+```
+
+### 3. Baixar as dependências do Projeto
+Ainda no terminal, dentro da pasta raiz do projeto digite o seguinte comando:
+``` bash
+npm install
+```
+
+### 4. Rodar a aplicação NextJs
+Ainda no terminal, digite o seguinte comando:
 ``` bash
 npm run dev
 ```
 
-
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+### Acessar o site
+Entre no seu navegador de preferência e acesse o link
+[localhost:3000](localhost:3000)
